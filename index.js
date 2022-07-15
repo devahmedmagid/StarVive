@@ -157,8 +157,8 @@ function spawnEnemies() {
       y: Math.sin(angle),
     };
     if (innerWidth < 800) {
-      velocity.x = velocity.x / 2;
-      velocity.y = velocity.y / 2;
+      velocity.x = velocity.x / 1.2;
+      velocity.y = velocity.y / 1.2;
     }
     enemies.push(new Enemy(x, y, radius, color, velocity));
   }, 1000);
