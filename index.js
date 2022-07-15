@@ -156,12 +156,9 @@ function spawnEnemies() {
       x: Math.cos(angle),
       y: Math.sin(angle),
     };
-    if (innerWidth < 800) {
-      velocity.x = velocity.x / 2;
-      velocity.y = velocity.y / 2;
-    }
+
     enemies.push(new Enemy(x, y, radius, color, velocity));
-  }, 1500);
+  }, 2000);
 }
 
 let animationId;
