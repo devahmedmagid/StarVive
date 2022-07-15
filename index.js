@@ -161,7 +161,7 @@ function spawnEnemies() {
       velocity.y = velocity.y / 3;
     }
     enemies.push(new Enemy(x, y, radius, color, velocity));
-  }, 1500);
+  }, 2000);
 }
 
 let animationId;
